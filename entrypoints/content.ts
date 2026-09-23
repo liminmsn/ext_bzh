@@ -1,6 +1,6 @@
 export default defineContentScript({
-  matches: ['*://*.google.com/*'],
+  matches: ['https://forum.cocos.org/*'],
   main() {
-    console.log('Hello content.');
+    console.log('Hello content. cocos');
   },
 });
