@@ -3,12 +3,11 @@ import reactLogo from '@/assets/react.svg';
 import wxtLogo from '/wxt.svg';
 import './App.css';
 
-function App() {
+export default function () {
   const [count, setCount] = useState(0);
 
   return <div className='w-full h-ful'>
+    <img src={reactLogo} />
     test
   </div>
 }
-
-export default App;
